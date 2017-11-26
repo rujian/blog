@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.rujiangcc.com/"/>
-  <updated>2017-11-19T13:14:40.659Z</updated>
+  <updated>2017-11-26T12:32:28.200Z</updated>
   <id>http://blog.rujiangcc.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>滴滴 cube-ui的使用</title>
+    <link href="http://blog.rujiangcc.com/2017/11/26/vue-cube/"/>
+    <id>http://blog.rujiangcc.com/2017/11/26/vue-cube/</id>
+    <published>2017-11-25T16:00:00.000Z</published>
+    <updated>2017-11-26T12:32:28.200Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="先写一半"><a href="#先写一半" class="headerlink" title="先写一半"></a>先写一半</h1><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">Vue.use(<span class="string">'Cube'</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">new</span> Vue(&#123;</span><br><span class="line">el:<span class="string">"#app"</span>,</span><br><span class="line">data:&#123;</span><br><span class="line">items:[<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>,<span class="number">7</span>,<span class="number">8</span>]</span><br><span class="line">&#125;,</span><br><span class="line">methods:&#123;</span><br><span class="line">onPullingUp()&#123;</span><br><span class="line"><span class="built_in">console</span>.log(<span class="keyword">this</span>.items)</span><br><span class="line">setTimeout(<span class="function"><span class="params">()</span>=&gt;</span>&#123;</span><br><span class="line"><span class="keyword">let</span> data = [<span class="number">11</span>,<span class="number">22</span>,<span class="number">33</span>,<span class="number">44</span>,<span class="number">55</span>];</span><br><span class="line"><span class="keyword">this</span>.items = <span class="keyword">this</span>.items.concat(data)</span><br><span class="line">&#125;,<span class="number">1000</span>)</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;先写一半&quot;&gt;&lt;a href=&quot;#先写一半&quot; class=&quot;headerlink&quot; title=&quot;先写一半&quot;&gt;&lt;/a&gt;先写一半&lt;/h1&gt;&lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>rem布局</title>
